@@ -70,7 +70,11 @@
 - conda list：现实anaconda安装的包
 - conda env list：现实anaconda的虚拟环境列表
 - conda creat -n xxx python=3.7:创建python版本为3.7的虚拟环境，名称为xxx\
-
+    - 删除环境:conda remove -n your_env_name(虚拟环境名称) --all
+    - 删除环境中的某个包:使用命令conda remove --name $your_env_name  $package_name 即可。
+    - 激活虚拟环境：source activate your_env_name(虚拟环境名称)
+    - 退出虚拟环境：source deactivate your_env_name(虚拟环境名称)
+    
 # 4. 类和对象的成员分析
 - 类和对象都可以储存成员，成员可以归类所有，也可以归对象所有
 - 类存储成员时使用的是与类关联的一个对象

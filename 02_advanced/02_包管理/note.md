@@ -108,7 +108,7 @@
                   class_name.func_name()
                   class_name.var
                 
-        - 案例p09.py， 注意此种导入的具体内容
+        - 案例[p09.py]， 注意此种导入的具体内容
     - from package.module import *
         - 导入包中指定的模块的所有内容
         - 使用方法
