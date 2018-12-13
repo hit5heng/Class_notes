@@ -69,7 +69,7 @@
 - 还是一个安装包管理器
 - conda list：现实anaconda安装的包
 - conda env list：现实anaconda的虚拟环境列表
-- conda creat -n xxx python=3.7:创建python版本为3.7的虚拟环境，名称为xxx\
+- conda create -n xxx python=3.7:创建python版本为3.7的虚拟环境，名称为xxx\
     - 删除环境:conda remove -n your_env_name(虚拟环境名称) --all
     - 删除环境中的某个包:使用命令conda remove --name $your_env_name  $package_name 即可。
     - 激活虚拟环境：source activate your_env_name(虚拟环境名称)
